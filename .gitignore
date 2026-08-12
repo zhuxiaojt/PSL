@@ -1,0 +1,17 @@
+node_modules/
+*.pkl
+pnpm-lock.yaml
+pnpm-workspace.yaml
+package-lock.json
+.nexfpack-temp/
+ctx.bin
+*.exe
+*.dll
+build/
+dist/
+front_dist/
+__pycache__/
+brewtotal.*
+.vscode/
+*.obj
+pyenv/

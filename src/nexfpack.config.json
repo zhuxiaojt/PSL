@@ -1,0 +1,37 @@
+{
+    "name": "psl_ui",
+    "entry": "prod.js",
+    "output": "dist",
+    "noConsole": true,
+    "log": true,
+    "upxLevel": 0,
+    "metadata": {
+        "2052": {
+            "FileVersion": "1.0.0.0",
+            "ProductVersion": "1.0.0.0",
+            "CompanyName": "Power Security Layer",
+            "LegalCopyright": "Copyright © 2026 Power Security Layer.",
+            "OriginalFilename": "psl_ui.exe",
+            "ProductName": "PSL",
+            "InternalName": "psl-ui",
+            "FileDescription": "Power Security Layer (PSL) 主界面模块"
+        }
+    },
+    "ignore": [
+        "dev.js",
+        "vite.config.js",
+        "*.vue",
+        "App.js",
+        "/index.html",
+        "test.js",
+        "dist/**/*",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "assets/**/*",
+        "components/**/*",
+        "router/**/*",
+        "package-lock.json",
+        "build.js"
+    ],
+    "oneFile": false
+}

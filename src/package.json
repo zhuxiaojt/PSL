@@ -1,0 +1,25 @@
+{
+    "name": "psl_ui",
+    "type": "module",
+    "version": "1.0.0",
+    "productName": "PSL_UI",
+    "description": "PSL_UI",
+    "main": "prod.js",
+    "scripts": {
+        "dev": "node dev.js",
+        "build": "node build.js",
+        "vite": "vite"
+    },
+    "dependencies": {
+        "@bindrs/rfd": "^2.2.2",
+        "@lucide/vue": "^1.0.0",
+        "nexfep": "^0.7.0",
+        "vue": "^3.4.0",
+        "vue-router": "^5.2.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^6.0.8",
+        "binpx": "^0.0.3",
+        "vite": "^8.0.0"
+    }
+}
